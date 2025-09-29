@@ -1,0 +1,114 @@
+/* Basic Reset & Fonts */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f5f5;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.products {
+  padding: 3rem 0;
+}
+
+.products h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.product {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.product h3 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.product p {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #222;
+}
+
+.about {
+  background: #fff;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 6px;
+}
+
+.about h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  text-align: center;
+  color: #444;
+  max-width: 800px;
+  margin: auto;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
